@@ -1,72 +1,74 @@
-Electric Vehicle Market Analysis – Tableau Dashboard
+# Electric Vehicle (EV) Market Insights Dashboard – Tableau
 
-This project analyzes the U.S. electric vehicle (EV) market using Tableau.
-Dashboard highlights EV growth, manufacturer performance, state-level distribution, price segmentation, and range comparison.
+This project explores Electric Vehicle adoption trends across the United States using Tableau.  
+The dashboard highlights manufacturer dominance, price–range patterns, year-wise growth, and state-wise EV penetration.
 
-📂 Files
-tableau/Tableau Project_Ravi_Sekhar.twbx
-tableau/Electric_Vehicle_Population_Data.csv
+---
 
-🎯 Objectives
+## 📌 Objectives
+- Analyze EV adoption across U.S. states  
+- Compare manufacturers and identify market leaders  
+- Study price vs battery range trends  
+- Identify EV growth patterns over time  
+- Build an interactive dashboard for business insights  
 
-Based on the case study tasks (Page 1–4):
+---
 
-EV growth over time
+## 📂 Dataset
+Source: Public EV Population Data  
+Records: 247,000+ EV entries
 
-Manufacturer market share
+Key fields:
+- Model Year  
+- Manufacturer  
+- State  
+- Electric Range  
+- Vehicle Category  
+- Base Price  
 
-Battery range comparisons
+Tool: **Tableau Public**
 
-U.S. state-wise EV population
+---
 
-Price range segmentation
+## 📊 Key Metrics
+- **Total EVs:** 247K+  
+- **Average Electric Range:** 197 miles (Premium), 57 miles (Non-premium)  
+- **Top Manufacturer:** Tesla (104,998 EVs)  
+- **Top State (Adoption):** Washington (246K EVs)  
+- **Peak Growth Years:** 2023, 2024  
 
-Forecasting adoption trends
+---
 
-📊 Dashboard Features
+## 📈 Analysis Performed
+**1) KPIs**  
+- Total EVs  
+- Average Range  
+- Average Price  
+- Adoption by Category  
 
-KPI Cards
+**2) Visualizations**  
+- State-wise EV Map  
+- Manufacturer performance bar chart  
+- Price vs Range scatter plot  
+- Year-wise EV trend line chart  
+- Category distribution  
 
-Total EVs
+**3) Insights**
+- Tesla leads the U.S. EV market by a huge margin  
+- EV adoption accelerated after 2011; peak growth in 2023  
+- Premium EVs provide 3× more range than affordable EVs  
+- Few states drive majority of adoption (WA, CA, OR)  
 
-Average Range
+---
 
-Average Price
+## 💡 Recommendations
+- Target premium EV segments where demand is rising  
+- Expand charging infrastructure in low-adoption states  
+- Optimize pricing for mid-range EV models  
+- Increase production for high-range, mid-budget EVs  
 
-EV Growth Trend (Model Year vs Count)
+---
 
-Manufacturer Distribution (Top EV brands)
-
-U.S. State-wise EV Map
-
-Price vs Range Scatter Plot
-
-Avg Range by Vehicle Type (BEV vs PHEV)
-
-Filters:
-
-Model Year
-
-Vehicle Type
-
-Price Category
-
-📈 Key Insights:
-
-Tesla leads EV adoption by a huge margin
-
-EV adoption grows steadily every year
-
-BEVs offer higher average range than PHEVs
-
-Premium EVs generally show better performance
-
-California, Washington, Oregon, Texas top EV usage
-
-🛠 Tools Used:
-
-Tableau Public
-
-Excel / CSV
-
-EV Population Data 2025
+## ✅ Conclusion
+The Tableau dashboard provides a clear view of EV market behavior, growth patterns, and manufacturer positioning.  
+The insights support pricing strategy, production planning, and regional expansion decisions.
